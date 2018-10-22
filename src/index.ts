@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/operator/map';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 import { TranslateLoader } from '@ngx-translate/core';
 import * as ltx from 'ltx';
@@ -24,7 +24,9 @@ export class TranslateResxHttpLoader implements TranslateLoader {
 		const fullUrl = `${this.transLocation}/${this.prefix}${lang}${this.suffix}`;
 		return this.http
 			.get(fullUrl, { responseType: 'text' })
-			.map(content => this.parse(content, lang));
+			.pipe(
+				map(content => this.parse(content, lang))
+			);
 	}
 
 	/**
