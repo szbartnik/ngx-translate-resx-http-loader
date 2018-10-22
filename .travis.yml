@@ -16,7 +16,7 @@ deploy:
   email: kneefer@gmail.com
   api_key:
     secure: iYw6VQmm9IJqnuxh0mhlzd9CR+iSwt1iOC8woO8P02Q18dp4V+LpSLcULWYGW1psiv7hHwB4GZon5TI9yr3viTo8rEdN2VyAW+WwOUX0ZHwASNmIJIMVtNC1zPNCCcX2mLkMy0H0wNIWlqnOwBS5S4mjb6R6ybvOybS1pbXLCokVBHGi5b/3uWByh5tPLqyhTmkwFkWdOm7FkWqoxz+nEQNyhvprTqBnOgNbNOlZLWgA43YGjKN+kiR2t4yXzqNdFpFm1ijpPg+0AEO2NpFgXh78dL/uOA0MOOYikl0ViZ9oyXcRaiIKsnxfouNw+dwxfuW/uAIXRgGyFbvonpHOo3uZgPfIpoRB8aJo60aCK7Z98D/xse/VULlPXuFz2dSJUzp4EjXtNmMT8km6auTsMeou/713UTqLvEhmDaNqUsH9fvWQfBF3f7hYhE4gQVbbLWKKCh9tjF25nhWmJODU9fh59ccQ3IRpB14CLuo5JqzA+rp3gZjpZzfa32611MgK9xiMGyHe95GFAOOhETRAbegCVzMu75nQagX/qDluL5BvQtDFxSafBZJEg0WsOFdIp6OcS0jE+BTDNIG3tEQkHJvOI8xp9sBlBvs3/BSQe2MqVg+qXeAU5uYOWGvChQ2tclXl+O3TqukvnwHdje4BUGvRNVZVy8Tf9/GmEvEL0Fk=
-    skip_cleanup: true
+  skip_cleanup: true
   on:
     repo: kneefer/ngx-translate-resx-http-loader
 after_deploy:
