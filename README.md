@@ -40,6 +40,12 @@ export function createTranslateLoader(http: HttpClient) {
 export class AppModule { }
 ```
 
+## RxJS 5 and below
+If you can't use RxJS 6 (or at least 5.6.0-forward-compat.5) (RxJS introduces pipable operators in version 6) please use following version:
+```
+@kneefer/ngx-translate-resx-http-loader@1.0.0
+```
+
 ## Old HttpModule
 If you want to use deprecated HttpModule (Angular < 4.3.0) please use following version:
 ```
