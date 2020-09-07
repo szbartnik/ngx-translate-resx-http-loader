@@ -40,6 +40,12 @@ export function createTranslateLoader(http: HttpClient) {
 export class AppModule { }
 ```
 
+## Angular 9 and below
+The newest (3.0.0) version is built for Angular 10 and ngx-translate 13. If you use Angular 9 or below please use following version:
+```
+@kneefer/ngx-translate-resx-http-loader@2.0.1
+```
+
 ## RxJS 5 and below
 If you can't use RxJS 6 (or at least 5.6.0-forward-compat.5) (RxJS introduces pipable operators in version 6) please use following version:
 ```
